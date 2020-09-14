@@ -1,0 +1,7 @@
+{
+    "/api/*": {
+        "target": "https://conduit.productionready.io/api",
+        "secure": false,
+        "logLevel": "debug"
+    }
+}

@@ -1,0 +1,118 @@
+.login-box{
+    border: 1px black;
+    width: 40%;
+    margin-left: 30%;
+}
+.M20{
+    margin: 22px;
+}
+.MT20{
+    margin-top: 20px;
+}
+.border-styling{
+    padding: 4%;
+    border-radius: 5%;
+}
+.foot-style{
+    background-color: #b1ded2;
+    padding: 2%;
+    color: grey;
+    position: fixed;
+    bottom: 0;
+    width: 100%
+}
+.banner-style{
+    background: #a0ecd7;
+    width: 115%;
+    height: 78px;
+    padding: 2%;
+    color: white;
+    box-shadow: inset 0 0 5px #00000091;
+    margin-left: -7%;
+}
+
+.styl1{
+    padding-top: 2%;
+    color: #7a8e86;
+}
+.pd4{
+    padding-left: 4%;
+}
+.menu-pannel{
+    text-align: right;
+    margin: 27px;
+}
+.pd2{
+    padding : 2%;
+}
+.link-to-page{
+    color: grey;
+    font-size: 15px;
+    margin-right: 18px;
+    font-weight: 500;
+}
+.active{
+    border-bottom: 2px solid #a0ecd7!important;
+}
+
+.ptofil-name{
+    color: #4cd3ad;
+}
+.pd1{
+    padding: 1%;
+}
+.hide-overflow{
+    overflow: hidden;
+    margin-right: -2%;
+
+}
+
+.article-head{
+    background: #656363;
+    width: 114%;
+    height: 150px;
+    padding: 2%;
+    color: white;
+    font-size: xx-large;
+    font-weight: 500;
+    margin-left: -7%;
+    padding-left: 9%;
+}
+.article-body{
+    width: 80%;
+    padding: 2%;
+}
+
+.rd-more{
+    border: none;
+    background: none;
+    font-size: 11px;
+    color: #7b7777;
+}
+.M-misun-14{
+    margin-top: -14px
+}
+.M-R-13{
+    margin-right: 13px;
+}
+.BD-Rad{
+    border-radius: 4px !important;
+}
+.back-none{
+    background: none;
+}
+
+.MT10{
+    margin-top: 10px;
+}
+
+.pd5{
+    padding-bottom: 5%;
+}
+
+.commenter-name{
+    
+    font-size: x-large;
+    font-weight: 500;
+
+}

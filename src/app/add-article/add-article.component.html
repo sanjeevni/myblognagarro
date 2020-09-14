@@ -1,0 +1,10 @@
+
+<div class="form-group login-box ">
+    <label>
+        <h2>New Article</h2>
+    </label>
+    <input [(ngModel)] = "articleData.title" type="text" class="form-control M20" placeholder="Title">
+    <input [(ngModel)] = "articleData.description" type="text" class="form-control M20" placeholder="Description">
+    <textarea [(ngModel)] = "articleData.body" class="form-control M20" rows="5" placeholder="Article Content"></textarea>
+    <button (click) = "addArticle()" type="submit" class="btn btn-primary">Publish</button>
+</div>

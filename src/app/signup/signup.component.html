@@ -1,0 +1,14 @@
+
+
+<div class="form-group login-box border border-styling">
+    <label>
+        <h2>Signup</h2>
+    </label>
+    <input [(ngModel)]="this.signupUserData.username" name="username" type="text" class="form-control M20"
+        placeholder="ID" required>
+    <input [(ngModel)]="this.signupUserData.email" name="email" type="email" class="form-control M20" placeholder="email"
+        required>
+    <input [(ngModel)]="this.signupUserData.password" name="password" type="password" class="form-control M20"
+        placeholder="password" required>
+    <button (click)="registerUser()" type="submit" class="btn btn-primary">Submit</button>
+</div>

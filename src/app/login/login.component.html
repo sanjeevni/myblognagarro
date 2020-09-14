@@ -1,0 +1,7 @@
+
+    <div class="form-group login-box border border-styling">
+        <label><h2>Login</h2></label>
+        <input [(ngModel)]= "this.loginUserData.email" type="email" class="form-control M20" placeholder="ID" required>
+        <input [(ngModel)]= "this.loginUserData.password" type="password" class="form-control M20" placeholder="password" required>
+        <button (click)= "loginUser()" type="submit" class="btn btn-primary">Submit</button>
+    </div>

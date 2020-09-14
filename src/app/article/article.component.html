@@ -1,0 +1,27 @@
+<div class="article-head">{{article.title}}
+    <div style="margin-top: -2%;">
+        <label style="font-size: small;">{{article.author.username}}</label>
+        <div class="M-misun-14">
+            <button class="M-R-13 btn btn-danger btn-sm rounded-0 BD-Rad back-none" type="button" data-toggle="tooltip" title="Delete"><i
+                    class="fa fa-trash" (click)="deleteArticle()">Delete</i></button>
+            <button class="btn btn-success btn-sm rounded-0 BD-Rad back-none" type="button" data-toggle="tooltip" title="Edit"><i
+                    class="fa fa-edit" (click)="editArticle()">Edit</i></button>
+        </div>
+    </div>
+</div>
+<div class="article-body">{{article.body}}
+
+    <hr>
+    <div>
+        <h2>COMMENTS</h2>
+        <textarea [(ngModel)]="comment.body" type="comments" class="form-control M20" placeholder="Comment"></textarea>
+        <button (click)="addComment()" type="submit" class="btn btn-primary">Post</button>
+    </div>
+
+    <div *ngFor="let c of comments">
+        <hr>
+        <label class="commenter-name">{{c.author.username}}</label>
+        <div>{{c.body}}</div>
+        <button (click)="deleteComment(c.id)" type="submit" class="btn btn-primary MT10 fa fa-delete">Delete</button>
+    </div>
+</div>

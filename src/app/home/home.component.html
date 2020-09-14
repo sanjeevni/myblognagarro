@@ -1,0 +1,30 @@
+
+<div class="banner-style">
+    <h2>A place to share knowledge</h2>
+</div>
+<div class="feed-toggle pd4 MT20">
+    <ul class="nav" style="font-size: 17px">
+        <li class="nav-item">
+            <a class="ptofil-name" routerLink="" routerLinkActive="active">Global Feed</a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link styl1">
+                Your Feed
+            </a>
+        </li>
+    </ul>
+    <hr style="margin-top: 0%;">
+    <div *ngFor="let a of this.articles">
+        <article>
+            <h4 class="ptofil-name">{{a.author.username}}</h4>
+            <div class="pd1">
+                <h2>{{a.title}}</h2>
+                <h5>{{a.description}}</h5>
+                <!-- <-- <a routerLink="/article" routerLinkActive="active">Read more</a> -->
+                <!-- <a [routerLink]="['article']" [queryParams]="{ slug: a.slug }">Read more</a>  -->
+                <button class = "rd-more" (click)= 'navArticle(a.slug)'>Read More</button>
+            </div>
+        </article>
+        <hr>
+    </div>
+</div>
